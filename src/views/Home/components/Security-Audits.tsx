@@ -9,6 +9,7 @@ import Security_Audits__Quantstamp from 'assets/web/Security_Audits__Quantstamp.
 
 import Security_Audits__slowmist from 'assets/web/Security_Audits__slowmist.png'
 import Security_Audits__secbit from 'assets/web/Security_Audits__secbit.png'
+import Security_Audits__imm from 'assets/web/Security_Audits__Immunefi.svg'
 import Security_Audits__certik from 'assets/web/Security_Audits__certik.png'
 
 
@@ -57,6 +58,9 @@ const Security_Audits: React.FC = () => {
                         <div className={'Item-img'}>
                             <img src={Security_Audits__secbit} alt="" />
                         </div>
+                        <div className={'Item-img'}>
+                            <img src={Security_Audits__imm} alt="" />
+                        </div>
 
 
                     </div>
@@ -69,12 +73,13 @@ const Security_Audits: React.FC = () => {
                         </div>
                         <div className={'btn btn2'}>
                             <a
-                                href={
-                                    intl_locale === 'cn' ?
-                                        'https://docs-cn.dforce.network/devs/bug-bounty'
-                                        :
-                                        "https://docs.dforce.network/devs/bug-bounty"
-                                }
+                                // href={
+                                //     intl_locale === 'cn' ?
+                                //         'https://docs-cn.dforce.network/devs/bug-bounty'
+                                //         :
+                                //         "https://docs.dforce.network/devs/bug-bounty"
+                                // }
+                                href='https://immunefi.com/bounty/dforce'
                                 target='_blank'>
                                 <span>{fmt({ id: "Bug_Bounty" })}</span>
                             </a>
