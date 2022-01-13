@@ -38,6 +38,7 @@ const zh_CN = {
     Contacts: '联系',
     Forum: '论坛',
     Portal: '系统',
+    Snapshot: '投票',
     Portal_toupiao: '投票',
     Governance: '治理',
     Whitepaper: '白皮书',

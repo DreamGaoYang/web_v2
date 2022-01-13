@@ -114,12 +114,12 @@ const Home: React.FC<HomeProps> = ({ changeLanguage }) => {
                         <img className={showFARM ? "rotate180" : ""} src={btn_up} />
                       </h1>
                       <div className={showFARM ? "items items-icons" : "items items-icons item-hidden"}>
-                        <a href="https://app.dforce.network/#/lending/Mining?AssetsType=Lend&currentPool=general" target='_blank' onClick={() => { setShowMenu(false) }}>
+                        <a href="https://app.dforce.network/#/Mining" target='_blank' onClick={() => { setShowMenu(false) }}>
                           <span className="name">
                             {fmt({ id: "FARM__LENDING" })}
                           </span>
                         </a>
-                        <a href="https://app.dforce.network/#/Stake?AssetsType=Lend&currentPool=general" target='_blank' onClick={() => { setShowMenu(false) }}>
+                        <a href="https://app.dforce.network/#/Liquidity" target='_blank' onClick={() => { setShowMenu(false) }}>
                           <span className="name">
                             {fmt({ id: "FARM__LIQUIDITY" })}
                           </span>
@@ -138,7 +138,7 @@ const Home: React.FC<HomeProps> = ({ changeLanguage }) => {
                         <img className={showGOVERNANCE ? "rotate180" : ""} src={btn_up} />
                       </h1>
                       <div className={showGOVERNANCE ? "items items-icons" : "items items-icons item-hidden"}>
-                        <a href="https://snapshot.page/#/dforce" target='_blank' onClick={() => { setShowMenu(false) }}>
+                        <a href="https://snapshot.org/#/dforcenet.eth" target='_blank' onClick={() => { setShowMenu(false) }}>
                           <span className="name">
                             {fmt({ id: "VOTE" })}
                           </span>

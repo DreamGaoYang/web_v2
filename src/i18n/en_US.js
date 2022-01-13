@@ -38,6 +38,7 @@ const en_US = {
     Contacts: 'Contacts',
     Forum: 'Forum',
     Portal: 'Portal',
+    Snapshot: 'Snapshot',
     Portal_toupiao: 'Portal',
     Governance: 'Governance',
     Whitepaper: 'Whitepaper',

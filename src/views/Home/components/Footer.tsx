@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                             {fmt({ id: "Governance" })}
                         </div>
                         <div className={'menu-menu'}>
-                            <a href="https://snapshot.page/#/dforce" target='_blank'>{fmt({ id: "Portal" })}</a>
+                            <a href="https://snapshot.org/#/dforcenet.eth" target='_blank'>{fmt({ id: "Snapshot" })}</a>
                             <a href="https://forum.dforce.network" target='_blank'>{fmt({ id: "Forum" })}</a>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                             <a href="" target='_blank'>{fmt({ id: "dForce_Labs" })}</a>bd@dforce.network */}
                             {/* <a href="mailto:frotech@foxmail.com" target="_blank">frotech@foxmail.com</a> */}
 
-                            <a href="mailto:bd@dforce.network">bd@dforce.network</a>
+                            {/* <a href="mailto:bd@dforce.network">bd@dforce.network</a> */}
                             {/* <a href="javascript:;" target='_blank' >bd@dforce.network</a> */}
                             {/* <a href="javascript:;" target='_blank' >contact@dforce.network</a> */}
                             <a href="mailto:contact@dforce.network">contact@dforce.network</a>

@@ -68,10 +68,10 @@ const Header: React.FC<HomeProps> = ({ changeLanguage }) => {
                             <span>{fmt({ id: "FARM" })}</span>
 
                             <div className='target-wrap-item-list'>
-                                <a href="https://app.dforce.network/#/lending/Mining?AssetsType=Lend&currentPool=general" target='_blank'>
+                                <a href="https://app.dforce.network/#/Mining" target='_blank'>
                                     {fmt({ id: "FARM__LENDING" })}
                                 </a>
-                                <a href="https://app.dforce.network/#/Stake?AssetsType=Lend&currentPool=general" target='_blank'>
+                                <a href="https://app.dforce.network/#/Liquidity" target='_blank'>
                                     {fmt({ id: "FARM__LIQUIDITY" })}
                                 </a>
                                 <a href="https://staking.dforce.network/" target='_blank'>
@@ -86,7 +86,7 @@ const Header: React.FC<HomeProps> = ({ changeLanguage }) => {
                             </span>
 
                             <div className='target-wrap-item-list'>
-                                <a href="https://snapshot.page/#/dforce" target='_blank'>
+                                <a href="https://snapshot.org/#/dforcenet.eth" target='_blank'>
                                     {fmt({ id: "VOTE" })}
                                 </a>
                                 {/* <a href="https://airdrop.dforce.network/" target='_blank'>
